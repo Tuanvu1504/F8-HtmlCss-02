@@ -1,0 +1,332 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-style: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==cammon=== */
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    color: #fff;
+    background: #171100;
+    border-radius: 24.5px;
+    text-align: center;
+    line-height: 50px;
+    width: 144px;
+    height: 50px;
+}
+
+.wapper {
+    width: 1440px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.main-content {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav li {
+    position: relative;
+    /* padding: 8px 16px; */
+    margin-right: 42px;
+}
+
+.nav li a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #5F5B53;
+}
+
+.nav li:first-child:after {
+    position: absolute;
+    top: 20px;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 2px;
+    background: #171100;
+    border-radius: 1px;
+
+}
+
+.nav li a:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
+}
+
+.body .action a {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* ====HERO===== */
+
+.hero {
+    padding-top: 64px;
+}
+
+.header .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 65px;
+}
+
+.hero .hero-media {
+    position: relative;
+}
+
+.hero-media .hero-statistics {
+    position: absolute;
+    bottom: 31px;
+    right: -105px;
+    width: 270px;
+    height: 244px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.hero-statistics {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-statistics .statistics-design,
+.hero-statistics .statistics-development,
+.hero-statistics .statistics-marketing {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-statistics .statistics-design {
+    margin: 24px 63px 14px 24px;
+}
+
+.hero-statistics .statistics-development {
+    margin: 0 58px 14px 24px;
+}
+
+.hero-statistics .statistics-marketing {
+    margin: 0 88px 24px 24px;
+}
+
+.design-desc span {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5F5B53;
+}
+
+.design-desc p {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.hero-content .content-title h1 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #171100;
+    padding-bottom: 22px;
+}
+
+.hero-content .content-title p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+    padding-bottom: 38px;
+}
+
+
+.hero-content {
+    max-width: 470px;
+}
+
+.body-content .content-action {
+    display: flex;
+    align-items: center;
+}
+
+.action-play {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+}
+
+
+.content-action span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #171100;
+
+}
+
+.content-action .action-btn {
+    width: 180px;
+    height: 64px;
+    line-height: 64px;
+    background: #FFB900;
+    border-radius: 32px;
+}
+
+.content-statistics {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+}
+
+.content-statistics .statistisc {
+    padding-top: 8px;
+    display: flex;
+    /* align-items: flex-end; */
+    gap: 10px;
+}
+
+.statistisc h2 {
+    font-family: 'Sen', sans-serif;
+    font-size: 4.4rem;
+}
+
+.statistisc span {
+    color: #5F5B53;
+    font-size: 1.8rem;
+    padding-top: 20px;
+}
+
+.main-products{
+    padding-top: 200px;
+}
+
+.main-products .content-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-products .title-desc h2{
+    font-family: 'Sen', sans-serif;
+    font-size: 3.8rem;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+.main-products .title-desc p{
+    padding-top: 16px;
+    width: 458px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5F5B53;
+}
+
+.main-products .title-action{
+    display: flex;
+    height: 40px;
+    gap: 18px;
+}
+
+.main-products .product{
+    display: flex;
+    gap: 30px;
+}
+
+.product{
+    padding-top: 55px;
+}
+
+.main-products .product-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-products .product-info{
+    padding: 16px 22px 22px 22px;
+}
+
+.title-desc h3{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #171100;
+}
+.product-title .title-assess{
+    display: flex;
+}
+.title-assess img{
+    height: 18px;
+}
+
+.title-assess span{
+    font-weight: 400;
+    font-size: 1.6;
+    color: #FEA31B;
+}
+
+.product-title .title-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info p{
+    padding: 6px 0 12px 0;
+    width: 326px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5F5B53;
+}
+
+.product-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-buy span{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #171100;
+}
+.product-buy .product-btn{
+    width: 118px;
+    height: 50px;
+    background: #171100;
+    border-radius: 25px;
+}
+
+.product-buy .product-btn:hover{
+    background: #FFB900;
+}
